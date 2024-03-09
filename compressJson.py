@@ -22,8 +22,8 @@ if __name__ == "__main__":
     output_csv_file = 'films.csv'
     output_gzip_file = 'films.csv.gz'
 
-    # Convert JSON to CSV
+    # Convertri JSON en CSV
     json_to_csv(input_json_file, output_csv_file)
 
-    # Compress CSV to gzip
+    # Compresser CSV en gzip
     compress_file(output_csv_file, output_gzip_file)

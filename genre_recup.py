@@ -1,3 +1,4 @@
+# Script permettant de récupérer les genres uniques 
 import json
 
 # Charger le fichier JSON généré par votre script

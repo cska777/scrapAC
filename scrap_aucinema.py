@@ -1,3 +1,4 @@
+#Ce script perme de récupérer les films qui sont à l'affiche au cinéma en ce moment
 from requests_html import HTMLSession
 from bs4 import BeautifulSoup
 import json
@@ -130,7 +131,7 @@ def scrape_allocine_movies(base_url, num_pages_to_scrape):
     return all_movies
 if __name__ == "__main__":
     allocine_base_url = "https://www.allocine.fr/film/aucinema/"
-    num_pages_to_scrape = 14  # Modifiez cette valeur pour définir le nombre de pages à scraper
+    num_pages_to_scrape = 14  # Modifier cette valeur pour définir le nombre de pages à scraper
 
     top_movies = scrape_allocine_movies(allocine_base_url, num_pages_to_scrape)
 

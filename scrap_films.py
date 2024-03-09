@@ -1,3 +1,5 @@
+# Ce script permet de récupérer la totalité de la base de donnée de film disponible
+# sur Allociné
 from requests_html import HTMLSession
 from bs4 import BeautifulSoup
 import json
